@@ -11,3 +11,4 @@
 {"type":"sell","code":"1402","name":"遠東新","shares":800,"price":32.31,"commission":37,"date":"2026-05-15","time":"04:40:33","reason":"AI伺服器高檔減碼"}
 {"type":"buy","code":"2357","name":"華碩","shares":100,"price":623.64,"commission":89,"date":"2026-05-15","time":"04:50:55","reason":"PC族群旺季"}
 {"type":"sell","code":"2886","name":"兆豐金","shares":800,"price":41.15,"commission":47,"date":"2026-05-15","time":"05:00:16","reason":"AI伺服器高檔減碼"}
+{"type":"buy","code":"1101","name":"台泥","shares":2600,"price":28.66,"commission":106,"date":"2026-05-15","time":"05:05:19","reason":"傳產輪動機會"}

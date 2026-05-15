@@ -1,12 +1,12 @@
 {
-  "cash": 618552,
+  "cash": 543930,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 68.93,
+      "currentPrice": 68.09,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 517.51,
+      "currentPrice": 522.35,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,7 +22,7 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 184.58,
+      "currentPrice": 185.41,
       "buyDate": "2026-05-15"
     },
     {
@@ -30,7 +30,7 @@
       "name": "貿聯-KY",
       "shares": 100,
       "buyPrice": 486.73,
-      "currentPrice": 487.11,
+      "currentPrice": 484.85,
       "buyDate": "2026-05-15"
     },
     {
@@ -38,7 +38,7 @@
       "name": "遠東新",
       "shares": 900,
       "buyPrice": 32.58,
-      "currentPrice": 32.48,
+      "currentPrice": 32.57,
       "buyDate": "2026-05-15"
     },
     {
@@ -46,7 +46,7 @@
       "name": "兆豐金",
       "shares": 900,
       "buyPrice": 41.38,
-      "currentPrice": 41.15,
+      "currentPrice": 41.46,
       "buyDate": "2026-05-15"
     },
     {
@@ -54,7 +54,7 @@
       "name": "國泰金",
       "shares": 1000,
       "buyPrice": 62.27,
-      "currentPrice": 62.06,
+      "currentPrice": 62.4,
       "buyDate": "2026-05-15"
     },
     {
@@ -62,11 +62,30 @@
       "name": "華碩",
       "shares": 100,
       "buyPrice": 623.64,
-      "currentPrice": 620.97,
+      "currentPrice": 622.09,
+      "buyDate": "2026-05-15"
+    },
+    {
+      "code": "1101",
+      "name": "台泥",
+      "shares": 2600,
+      "buyPrice": 28.66,
+      "currentPrice": 28.66,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "buy",
+      "code": "1101",
+      "name": "台泥",
+      "shares": 2600,
+      "price": 28.66,
+      "commission": 106,
+      "date": "2026-05-15",
+      "time": "05:05:19",
+      "reason": "傳產輪動機會"
+    },
     {
       "type": "sell",
       "code": "2886",
@@ -214,10 +233,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 997056
+      "value": 998184
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "05:05:19",
+      "title": "傳產輪動機會",
+      "reason": "資金從電子輪動至傳產，基礎建設題材受惠。",
+      "sentiment": "0.38",
+      "nav": 998184,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "05:00:16",
@@ -346,5 +374,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 13
+  "totalTrades": 14
 }
