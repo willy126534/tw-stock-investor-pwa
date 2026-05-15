@@ -1,0 +1,24 @@
+{
+  "cash": 1000000,
+  "holdings": [],
+  "trades": [],
+  "navHistory": [
+    {
+      "date": "2026-05-15",
+      "value": 1000000
+    }
+  ],
+  "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "03:29:58",
+      "title": "停損出場",
+      "reason": "持股觸及停損價，執行停損。",
+      "sentiment": "-0.66",
+      "nav": 1000000,
+      "trades": 0
+    }
+  ],
+  "lastTradeDate": "2026-05-15",
+  "totalTrades": 0
+}

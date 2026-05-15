@@ -159,7 +159,10 @@ a{color:var(--accent);text-decoration:none}
 <!-- ===== SECTION: DASHBOARD ===== -->
 <div class="section active" id="sec-dashboard">
   <div class="portfolio-header">
-    <h1>💰 模擬投資組合</h1>
+    <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:4px">
+      <h1>💰 模擬投資組合</h1>
+      <span style="font-size:11px;background:rgba(0,230,118,.2);color:var(--up);padding:3px 8px;border-radius:6px" id="autoTradeBadge">🤖 自動交易中</span>
+    </div>
     <div class="portfolio-value" id="totalValue">NT$ 1,000,000</div>
     <div class="portfolio-sub">
       <span id="totalPL">損益：NT$ 0</span>
@@ -282,7 +285,8 @@ let state = {
   holdings: [],
   trades: [],
   navHistory: [{date: todayStr(), value: INITIAL_CASH}],
-  strategies: []
+  strategies: [],
+  autoMode: true
 };
 
 // Load from localStorage
@@ -294,6 +298,27 @@ function loadState(){
 }
 function saveState(){
   localStorage.setItem('twStockState', JSON.stringify(state));
+}
+
+// Fetch server-side auto-trade state
+async function fetchServerState(){
+  try{
+    const resp = await fetch('state-export.json?t='+Date.now());
+    if(resp.ok){
+      const serverState = await resp.json();
+      // Only update if server state is newer
+      if(serverState.trades && serverState.trades.length > state.trades.length){
+        state.cash = serverState.cash;
+        state.holdings = serverState.holdings;
+        state.trades = serverState.trades;
+        state.navHistory = serverState.navHistory;
+        state.strategies = serverState.strategies;
+        saveState();
+        return true;
+      }
+    }
+  }catch(e){}
+  return false;
 }
 
 // ============ UTILS ============
@@ -701,17 +726,18 @@ function renderHistory(){
 function refreshData(){
   const btn = document.getElementById('refreshBtn');
   btn.classList.add('spinning');
-  setTimeout(()=>{
-    // Update current prices with random walk
+  setTimeout(async ()=>{
+    const updated = await fetchServerState();
     state.holdings.forEach(h=>{
       h.currentPrice = +(h.currentPrice * (1 + (Math.random()-0.5)*0.03)).toFixed(2);
     });
     saveState();
     renderDashboard();
     btn.classList.remove('spinning');
-    showToast('資料已更新');
+    showToast(updated ? '已同步伺服器資料' : '資料已更新');
   }, 800);
 }
+setInterval(refreshData, 5 * 60 * 1000);
 
 // ============ INIT ============
 loadState();
