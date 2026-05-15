@@ -1,12 +1,12 @@
 {
-  "cash": 825140,
+  "cash": 845691,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
-      "shares": 700,
+      "shares": 400,
       "buyPrice": 68.91,
-      "currentPrice": 68.36,
+      "currentPrice": 68.6,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 518.84,
+      "currentPrice": 521.27,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,11 +22,22 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 185.45,
+      "currentPrice": 186.14,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "sell",
+      "code": "2881",
+      "name": "富邦金",
+      "shares": 300,
+      "price": 68.6,
+      "commission": 29,
+      "date": "2026-05-15",
+      "time": "04:20:09",
+      "reason": "停損出場"
+    },
     {
       "type": "buy",
       "code": "3034",
@@ -75,10 +86,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 999056
+      "value": 999714
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:20:09",
+      "title": "停損出場",
+      "reason": "持股觸及停損價，執行停損。",
+      "sentiment": "-0.57",
+      "nav": 999714,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "04:15:45",
@@ -117,5 +137,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 4
+  "totalTrades": 5
 }
