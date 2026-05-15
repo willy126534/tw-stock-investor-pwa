@@ -17,7 +17,7 @@ const INITIAL_CASH = 1000000;
 
 // ============ 股票池 ============
 const STOCK_POOL = [
-  { code: '2330', name: '台積電',  sector: '半導體',   basePrice: 985.00 },
+  { code: '2330', name: '台積電',  sector: '半導體',   basePrice: 2275.00 },
   { code: '2317', name: '鴻海',    sector: '電子代工', basePrice: 172.50 },
   { code: '2454', name: '聯發科',  sector: '半導體',   basePrice: 1380.00 },
   { code: '2382', name: '廣達',    sector: 'AI伺服器', basePrice: 285.00 },
