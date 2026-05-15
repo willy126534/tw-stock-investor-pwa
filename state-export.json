@@ -1,1 +1,54 @@
-{"cash":1000000,"holdings":[],"trades":[],"navHistory":[{"date":"2026-05-15","value":1000000}],"strategies":[],"lastTradeDate":null,"totalTrades":0}
+{
+  "cash": 910289,
+  "holdings": [
+    {
+      "code": "2881",
+      "name": "富邦金",
+      "shares": 1300,
+      "buyPrice": 68.91,
+      "currentPrice": 68.91,
+      "buyDate": "2026-05-15"
+    }
+  ],
+  "trades": [
+    {
+      "type": "buy",
+      "code": "2881",
+      "name": "富邦金",
+      "shares": 1300,
+      "price": 68.91,
+      "commission": 128,
+      "date": "2026-05-15",
+      "time": "03:45:38",
+      "reason": "金融股防禦配置"
+    }
+  ],
+  "navHistory": [
+    {
+      "date": "2026-05-15",
+      "value": 999872
+    }
+  ],
+  "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "03:45:38",
+      "title": "金融股防禦配置",
+      "reason": "市場不確定性升高，金融股配息穩定，適合防禦配置。",
+      "sentiment": "0.39",
+      "nav": 999872,
+      "trades": 1
+    },
+    {
+      "date": "2026-05-15",
+      "time": "03:29:58",
+      "title": "停損出場",
+      "reason": "持股觸及停損價，執行停損。",
+      "sentiment": "-0.66",
+      "nav": 1000000,
+      "trades": 0
+    }
+  ],
+  "lastTradeDate": "2026-05-15",
+  "totalTrades": 1
+}
