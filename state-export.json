@@ -1,12 +1,12 @@
 {
-  "cash": 810591,
+  "cash": 755126,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 68.9,
+      "currentPrice": 68.98,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 523.72,
+      "currentPrice": 516.88,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,7 +22,7 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 186.35,
+      "currentPrice": 185.81,
       "buyDate": "2026-05-15"
     },
     {
@@ -30,11 +30,30 @@
       "name": "貿聯-KY",
       "shares": 100,
       "buyPrice": 486.73,
-      "currentPrice": 486.73,
+      "currentPrice": 483.41,
+      "buyDate": "2026-05-15"
+    },
+    {
+      "code": "1402",
+      "name": "遠東新",
+      "shares": 1700,
+      "buyPrice": 32.58,
+      "currentPrice": 32.58,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "buy",
+      "code": "1402",
+      "name": "遠東新",
+      "shares": 1700,
+      "price": 32.58,
+      "commission": 79,
+      "date": "2026-05-15",
+      "time": "04:30:25",
+      "reason": "傳產輪動機會"
+    },
     {
       "type": "buy",
       "code": "3665",
@@ -116,10 +135,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 999956
+      "value": 998661
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:30:25",
+      "title": "傳產輪動機會",
+      "reason": "資金從電子輪動至傳產，基礎建設題材受惠。",
+      "sentiment": "0.66",
+      "nav": 998661,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "04:29:14",
@@ -185,5 +213,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 7
+  "totalTrades": 8
 }
