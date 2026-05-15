@@ -1,2 +1,4 @@
 {"type":"buy","code":"2881","name":"富邦金","shares":1300,"price":68.91,"commission":128,"date":"2026-05-15","time":"03:45:38","reason":"金融股防禦配置"}
 {"type":"sell","code":"2881","name":"富邦金","shares":600,"price":68.59,"commission":59,"date":"2026-05-15","time":"04:00:25","reason":"獲利了結"}
+{"type":"buy","code":"2379","name":"瑞昱","shares":100,"price":518.84,"commission":74,"date":"2026-05-15","time":"04:15:45","reason":"IC設計反彈契機"}
+{"type":"buy","code":"3034","name":"聯詠","shares":400,"price":185.45,"commission":106,"date":"2026-05-15","time":"04:15:45","reason":"IC設計反彈契機"}
