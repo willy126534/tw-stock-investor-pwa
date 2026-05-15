@@ -1,1 +1,2 @@
 {"type":"buy","code":"2881","name":"富邦金","shares":1300,"price":68.91,"commission":128,"date":"2026-05-15","time":"03:45:38","reason":"金融股防禦配置"}
+{"type":"sell","code":"2881","name":"富邦金","shares":600,"price":68.59,"commission":59,"date":"2026-05-15","time":"04:00:25","reason":"獲利了結"}

@@ -1,16 +1,27 @@
 {
-  "cash": 910289,
+  "cash": 951384,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
-      "shares": 1300,
+      "shares": 700,
       "buyPrice": 68.91,
-      "currentPrice": 68.91,
+      "currentPrice": 68.59,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "sell",
+      "code": "2881",
+      "name": "富邦金",
+      "shares": 600,
+      "price": 68.59,
+      "commission": 59,
+      "date": "2026-05-15",
+      "time": "04:00:25",
+      "reason": "獲利了結"
+    },
     {
       "type": "buy",
       "code": "2881",
@@ -26,10 +37,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 999872
+      "value": 999397
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:00:25",
+      "title": "獲利了結",
+      "reason": "部分持股已達獲利目標，執行獲利了結。",
+      "sentiment": "0.20",
+      "nav": 999397,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "03:45:38",
@@ -50,5 +70,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 1
+  "totalTrades": 2
 }
