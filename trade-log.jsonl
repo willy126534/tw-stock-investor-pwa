@@ -15,3 +15,4 @@
 {"type":"buy","code":"2412","name":"中華電","shares":700,"price":124.8,"commission":124,"date":"2026-05-15","time":"05:10:22","reason":"電信股穩健布局"}
 {"type":"buy","code":"3665","name":"貿聯-KY","shares":100,"price":482.19,"commission":69,"date":"2026-05-15","time":"05:15:12","reason":"電動車供應鏈"}
 {"type":"buy","code":"2357","name":"華碩","shares":100,"price":627.59,"commission":89,"date":"2026-05-15","time":"05:20:57","reason":"PC族群旺季"}
+{"type":"sell","code":"1402","name":"遠東新","shares":400,"price":32.34,"commission":20,"date":"2026-05-15","time":"05:25:21","reason":"半導體空方避險"}
