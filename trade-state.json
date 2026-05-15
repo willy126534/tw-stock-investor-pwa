@@ -1,12 +1,12 @@
 {
-  "cash": 456446,
+  "cash": 408158,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 68.71,
+      "currentPrice": 68.88,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 519.25,
+      "currentPrice": 520.53,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,15 +22,15 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 183.8,
+      "currentPrice": 185.69,
       "buyDate": "2026-05-15"
     },
     {
       "code": "3665",
       "name": "貿聯-KY",
-      "shares": 100,
-      "buyPrice": 486.73,
-      "currentPrice": 487.08,
+      "shares": 200,
+      "buyPrice": 484.46,
+      "currentPrice": 482.19,
       "buyDate": "2026-05-15"
     },
     {
@@ -38,7 +38,7 @@
       "name": "遠東新",
       "shares": 900,
       "buyPrice": 32.58,
-      "currentPrice": 32.69,
+      "currentPrice": 32.44,
       "buyDate": "2026-05-15"
     },
     {
@@ -46,7 +46,7 @@
       "name": "兆豐金",
       "shares": 900,
       "buyPrice": 41.38,
-      "currentPrice": 41.51,
+      "currentPrice": 41.38,
       "buyDate": "2026-05-15"
     },
     {
@@ -54,7 +54,7 @@
       "name": "國泰金",
       "shares": 1000,
       "buyPrice": 62.27,
-      "currentPrice": 62.33,
+      "currentPrice": 62.75,
       "buyDate": "2026-05-15"
     },
     {
@@ -62,7 +62,7 @@
       "name": "華碩",
       "shares": 100,
       "buyPrice": 623.64,
-      "currentPrice": 619.55,
+      "currentPrice": 615.81,
       "buyDate": "2026-05-15"
     },
     {
@@ -70,7 +70,7 @@
       "name": "台泥",
       "shares": 2600,
       "buyPrice": 28.66,
-      "currentPrice": 28.95,
+      "currentPrice": 28.82,
       "buyDate": "2026-05-15"
     },
     {
@@ -78,11 +78,22 @@
       "name": "中華電",
       "shares": 700,
       "buyPrice": 124.8,
-      "currentPrice": 124.8,
+      "currentPrice": 125.59,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "buy",
+      "code": "3665",
+      "name": "貿聯-KY",
+      "shares": 100,
+      "price": 482.19,
+      "commission": 69,
+      "date": "2026-05-15",
+      "time": "05:15:12",
+      "reason": "電動車供應鏈"
+    },
     {
       "type": "buy",
       "code": "2412",
@@ -252,10 +263,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 998036
+      "value": 998315
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "05:15:12",
+      "title": "電動車供應鏈",
+      "reason": "特斯拉財報優於預期，帶動台廠供應鏈。",
+      "sentiment": "0.43",
+      "nav": 998315,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "05:10:22",
@@ -402,5 +422,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 15
+  "totalTrades": 16
 }
