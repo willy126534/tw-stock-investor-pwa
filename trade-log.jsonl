@@ -4,3 +4,4 @@
 {"type":"buy","code":"3034","name":"聯詠","shares":400,"price":185.45,"commission":106,"date":"2026-05-15","time":"04:15:45","reason":"IC設計反彈契機"}
 {"type":"sell","code":"2881","name":"富邦金","shares":300,"price":68.6,"commission":29,"date":"2026-05-15","time":"04:20:09","reason":"停損出場"}
 {"type":"sell","code":"2881","name":"富邦金","shares":200,"price":68.31,"commission":20,"date":"2026-05-15","time":"04:25:16","reason":"獲利了結"}
+{"type":"buy","code":"3665","name":"貿聯-KY","shares":100,"price":486.73,"commission":69,"date":"2026-05-15","time":"04:29:14","reason":"電動車供應鏈"}

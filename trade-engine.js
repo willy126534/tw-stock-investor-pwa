@@ -3,7 +3,7 @@
  * 台股自動交易引擎 - OWL Investor
  * 
  * 交易時段：週一至週五 09:00-13:30 (UTC+8) = 01:00-05:30 UTC
- * 策略：根據預設策略模板自動買入/賣出，模擬真實投資
+ * 策略：根據預設策略模板自動買入/賣出，整合波段趨勢與存股策略
  */
 
 const fs = require('fs');
@@ -42,20 +42,18 @@ const STOCK_POOL = [
 // ============ 策略模板 ============
 const STRATEGIES = [
   {
-    title: '半導體逢低布局',
+    title: '半導體空方避險',
     sector: '半導體',
-    action: 'buy',
-    reason: 'AI產業長期看好，半導體族群回檔為進場良機。分批買入台積電、聯發科。',
-    maxPosition: 0.15, // 單一持股不超過15%
-    stopLoss: 0.95,
+    action: 'sell',
+    reason: '半導體庫存調整壓力大，獲利了結部分持股避險。',
+    stopLoss: 0.90,
   },
   {
-    title: 'AI伺服器追強',
+    title: 'AI伺服器高檔減碼',
     sector: 'AI伺服器',
-    action: 'buy',
-    reason: 'AI伺服器需求持續升溫，廣達、緯創量價齊揚。',
-    maxPosition: 0.10,
-    stopLoss: 0.93,
+    action: 'sell',
+    reason: 'AI伺服器漲多修正，技術指標過熱，建議部分獲利減碼。',
+    profitTarget: 0.10,
   },
   {
     title: '金融股防禦配置',

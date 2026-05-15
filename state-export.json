@@ -1,12 +1,12 @@
 {
-  "cash": 859333,
+  "cash": 810591,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 68.31,
+      "currentPrice": 68.9,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 519.23,
+      "currentPrice": 523.72,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,11 +22,30 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 184.48,
+      "currentPrice": 186.35,
+      "buyDate": "2026-05-15"
+    },
+    {
+      "code": "3665",
+      "name": "貿聯-KY",
+      "shares": 100,
+      "buyPrice": 486.73,
+      "currentPrice": 486.73,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "buy",
+      "code": "3665",
+      "name": "貿聯-KY",
+      "shares": 100,
+      "price": 486.73,
+      "commission": 69,
+      "date": "2026-05-15",
+      "time": "04:29:14",
+      "reason": "電動車供應鏈"
+    },
     {
       "type": "sell",
       "code": "2881",
@@ -97,10 +116,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 998710
+      "value": 999956
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:29:14",
+      "title": "電動車供應鏈",
+      "reason": "特斯拉財報優於預期，帶動台廠供應鏈。",
+      "sentiment": "0.29",
+      "nav": 999956,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "04:25:16",
@@ -157,5 +185,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 6
+  "totalTrades": 7
 }
