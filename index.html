@@ -154,7 +154,27 @@ a{color:var(--accent);text-decoration:none}
 <div class="toast" id="toast"></div>
 
 <!-- REFRESH -->
-<button class="refresh-btn" id="refreshBtn" onclick="refreshData()" title="重新整理">🔄</button>
+<button class="refresh-btn" id="refreshBtn" onclick="manualUpdateData()" title="重新整理">🔄</button>
+
+<script>
+async function manualUpdateData() {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+  showToast("正在檢查最新數據...");
+  
+  try {
+    const updated = await fetchServerState();
+    if(updated) {
+      showToast("資料已更新！");
+      renderDashboard();
+    } else {
+      showToast("已是最新資料");
+    }
+  } catch(e) {
+    showToast("同步失敗，請稍後再試");
+  }
+  btn.classList.remove('spinning');
+}
 
 <!-- ===== SECTION: DASHBOARD ===== -->
 <div class="section active" id="sec-dashboard">

@@ -1,12 +1,12 @@
 {
-  "cash": 622321,
+  "cash": 648132,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 68.31,
+      "currentPrice": 68.47,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 517.15,
+      "currentPrice": 519.48,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,7 +22,7 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 184.2,
+      "currentPrice": 184.16,
       "buyDate": "2026-05-15"
     },
     {
@@ -30,15 +30,15 @@
       "name": "貿聯-KY",
       "shares": 100,
       "buyPrice": 486.73,
-      "currentPrice": 482.07,
+      "currentPrice": 483.3,
       "buyDate": "2026-05-15"
     },
     {
       "code": "1402",
       "name": "遠東新",
-      "shares": 1700,
+      "shares": 900,
       "buyPrice": 32.58,
-      "currentPrice": 32.38,
+      "currentPrice": 32.31,
       "buyDate": "2026-05-15"
     },
     {
@@ -46,7 +46,7 @@
       "name": "兆豐金",
       "shares": 1700,
       "buyPrice": 41.38,
-      "currentPrice": 41.38,
+      "currentPrice": 41.27,
       "buyDate": "2026-05-15"
     },
     {
@@ -54,11 +54,22 @@
       "name": "國泰金",
       "shares": 1000,
       "buyPrice": 62.27,
-      "currentPrice": 62.27,
+      "currentPrice": 62.48,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "sell",
+      "code": "1402",
+      "name": "遠東新",
+      "shares": 800,
+      "price": 32.31,
+      "commission": 37,
+      "date": "2026-05-15",
+      "time": "04:40:33",
+      "reason": "AI伺服器高檔減碼"
+    },
     {
       "type": "buy",
       "code": "2882",
@@ -173,10 +184,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 997247
+      "value": 997486
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:40:33",
+      "title": "AI伺服器高檔減碼",
+      "reason": "AI伺服器漲多修正，技術指標過熱，建議部分獲利減碼。",
+      "sentiment": "-0.84",
+      "nav": 997486,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "04:35:32",
@@ -260,5 +280,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 10
+  "totalTrades": 11
 }

@@ -8,3 +8,4 @@
 {"type":"buy","code":"1402","name":"遠東新","shares":1700,"price":32.58,"commission":79,"date":"2026-05-15","time":"04:30:25","reason":"傳產輪動機會"}
 {"type":"buy","code":"2886","name":"兆豐金","shares":1700,"price":41.38,"commission":100,"date":"2026-05-15","time":"04:35:32","reason":"金融股防禦配置"}
 {"type":"buy","code":"2882","name":"國泰金","shares":1000,"price":62.27,"commission":89,"date":"2026-05-15","time":"04:35:32","reason":"金融股防禦配置"}
+{"type":"sell","code":"1402","name":"遠東新","shares":800,"price":32.31,"commission":37,"date":"2026-05-15","time":"04:40:33","reason":"AI伺服器高檔減碼"}
