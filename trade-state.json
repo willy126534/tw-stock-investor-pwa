@@ -1,12 +1,12 @@
 {
-  "cash": 648132,
+  "cash": 585679,
   "holdings": [
     {
       "code": "2881",
       "name": "富邦金",
       "shares": 200,
       "buyPrice": 68.91,
-      "currentPrice": 69,
+      "currentPrice": 68.73,
       "buyDate": "2026-05-15"
     },
     {
@@ -14,7 +14,7 @@
       "name": "瑞昱",
       "shares": 100,
       "buyPrice": 518.84,
-      "currentPrice": 518.9,
+      "currentPrice": 519.3,
       "buyDate": "2026-05-15"
     },
     {
@@ -22,7 +22,7 @@
       "name": "聯詠",
       "shares": 400,
       "buyPrice": 185.45,
-      "currentPrice": 185.36,
+      "currentPrice": 185.63,
       "buyDate": "2026-05-15"
     },
     {
@@ -30,7 +30,7 @@
       "name": "貿聯-KY",
       "shares": 100,
       "buyPrice": 486.73,
-      "currentPrice": 481.65,
+      "currentPrice": 484.03,
       "buyDate": "2026-05-15"
     },
     {
@@ -38,7 +38,7 @@
       "name": "遠東新",
       "shares": 900,
       "buyPrice": 32.58,
-      "currentPrice": 32.41,
+      "currentPrice": 32.52,
       "buyDate": "2026-05-15"
     },
     {
@@ -46,7 +46,7 @@
       "name": "兆豐金",
       "shares": 1700,
       "buyPrice": 41.38,
-      "currentPrice": 41.21,
+      "currentPrice": 41.44,
       "buyDate": "2026-05-15"
     },
     {
@@ -54,11 +54,30 @@
       "name": "國泰金",
       "shares": 1000,
       "buyPrice": 62.27,
-      "currentPrice": 62.32,
+      "currentPrice": 62.78,
+      "buyDate": "2026-05-15"
+    },
+    {
+      "code": "2357",
+      "name": "華碩",
+      "shares": 100,
+      "buyPrice": 623.64,
+      "currentPrice": 623.64,
       "buyDate": "2026-05-15"
     }
   ],
   "trades": [
+    {
+      "type": "buy",
+      "code": "2357",
+      "name": "華碩",
+      "shares": 100,
+      "price": 623.64,
+      "commission": 89,
+      "date": "2026-05-15",
+      "time": "04:50:55",
+      "reason": "PC族群旺季"
+    },
     {
       "type": "sell",
       "code": "1402",
@@ -184,10 +203,19 @@
   "navHistory": [
     {
       "date": "2026-05-15",
-      "value": 997677
+      "value": 998870
     }
   ],
   "strategies": [
+    {
+      "date": "2026-05-15",
+      "time": "04:50:55",
+      "title": "PC族群旺季",
+      "reason": "PC傳統旺季來臨，華碩等品牌廠受惠。",
+      "sentiment": "0.79",
+      "nav": 998870,
+      "trades": 1
+    },
     {
       "date": "2026-05-15",
       "time": "04:45:27",
@@ -289,5 +317,5 @@
     }
   ],
   "lastTradeDate": "2026-05-15",
-  "totalTrades": 11
+  "totalTrades": 12
 }
